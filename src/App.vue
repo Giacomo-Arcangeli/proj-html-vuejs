@@ -18,4 +18,13 @@ export default {
 
 
 
-<style lang="scss"></style>
+<style lang="scss">
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+</style>

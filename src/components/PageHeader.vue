@@ -7,8 +7,91 @@ export default {
 
 
 
-<template></template>
+<template>
+    <header class="container-fluid">
+
+        <img src="../assets/img/logo.svg" alt="" class="img-fluid logo">
+
+        <ul class="navbar-links">
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+            <li><a href="#">CIAO</a></li>
+        </ul>
+
+        <ul class="navbar-icons">
+            <li><img src="../assets/img/image (8).svg" alt="" class="search"></li>
+            <li><img src="../assets/img/image (9).svg" alt="" class="fb"></li>
+            <li><img src="../assets/img/image (10).svg" alt=""></li>
+            <li><img src="../assets/img/image (11).svg" alt=""></li>
+            <li><img src="../assets/img/image (12).svg" alt=""></li>
+        </ul>
+
+    </header>
+</template>
 
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+    background-color: #f2f2f2;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    margin-top: 15px;
+
+    li {
+        padding: 0 23px;
+    }
+}
+
+.navbar-icons {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 15px;
+
+    li {
+        padding-left: 20px;
+
+        img {
+            width: 18px;
+
+        }
+
+    }
+
+    .search {
+        width: 42px;
+        border-right: 1px solid grey;
+        padding-right: 17px;
+    }
+
+    .fb {
+        width: 10px;
+    }
+}
+
+
+a {
+    color: black;
+}
+</style>
