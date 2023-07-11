@@ -5,13 +5,47 @@ import PageFooter from './components/PageFooter.vue';
 
 export default {
   components: { PageHeader, PageMain, PageFooter },
+  data() {
+    return {
+      navbarLinks: [
+        {
+          text: 'HOME',
+          url: '#'
+        },
+        {
+          text: 'BLOG',
+          url: '#',
+        },
+        {
+          text: 'PAGES',
+          url: '#'
+        },
+        {
+          text: 'ABOUT',
+          url: '#'
+        },
+        {
+          text: 'CONTACTS',
+          url: '#'
+        },
+        {
+          text: 'GALLERY',
+          url: '#'
+        },
+        {
+          text: 'SHOP',
+          url: '#'
+        }
+      ]
+    }
+  }
 }
 </script>
 
 
 
 <template>
-  <PageHeader />
+  <PageHeader :navbar-links="navbarLinks" />
   <PageMain />
   <PageFooter />
 </template>

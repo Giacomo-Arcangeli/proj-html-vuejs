@@ -1,10 +1,11 @@
 
 <script>
 export default {
-
+    props: {
+        navbarLinks: Array
+    }
 }
 </script>
-
 
 
 <template>
@@ -13,13 +14,9 @@ export default {
         <img src="../assets/img/logo.svg" alt="" class="img-fluid logo">
 
         <ul class="navbar-links">
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
-            <li><a href="#">CIAO</a></li>
+            <li v-for="link in navbarLinks" :key="link.text">
+                <a :href="link.url">{{ link.text }}</a>
+            </li>
         </ul>
 
         <ul class="navbar-icons">
@@ -29,15 +26,13 @@ export default {
             <li><img src="../assets/img/image (11).svg" alt=""></li>
             <li><img src="../assets/img/image (12).svg" alt=""></li>
         </ul>
-
     </header>
 </template>
 
 
-
 <style lang="scss" scoped>
 header {
-    background-color: #f2f2f2;
+    background-color: #fff;
     height: 100px;
     display: flex;
     justify-content: space-between;
