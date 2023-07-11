@@ -97,6 +97,7 @@ export default {
 .about-us {
     height: 570px;
     background-image: url(../assets/img/About-Us.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
 

@@ -3,9 +3,10 @@ import SliderSection from './SliderSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
 import HitsSection from './HitsSection.vue';
 import TeamSection from './TeamSection.vue';
+import ArticlesSection from './ArticlesSection.vue';
 
 export default {
-    components: { SliderSection, AboutUsSection, HitsSection, TeamSection }
+    components: { SliderSection, AboutUsSection, HitsSection, TeamSection, ArticlesSection }
 }
 </script>
 
@@ -16,6 +17,7 @@ export default {
     <AboutUsSection />
     <HitsSection />
     <TeamSection />
+    <ArticlesSection />
 </template>
 
 

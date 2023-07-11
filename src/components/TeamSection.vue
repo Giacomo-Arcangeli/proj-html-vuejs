@@ -76,6 +76,7 @@ export default {
     height: 570px;
     background-image: url(../assets/img/Parallax-02.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     align-items: center;

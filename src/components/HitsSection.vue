@@ -97,6 +97,7 @@ export default {
     background-image: url(../assets/img/Parallax-01.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;
