@@ -53,6 +53,10 @@ export default {
 
 
 <style lang="scss">
+.bor {
+  border: 1px dashed red;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -60,5 +64,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.button-style {
+  color: black;
+  padding: 12px 35px;
+  background-color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 </style>

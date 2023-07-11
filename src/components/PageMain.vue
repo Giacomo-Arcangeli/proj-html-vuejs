@@ -1,12 +1,18 @@
 <script>
-export default {
+import SliderSection from './SliderSection.vue'
+import AboutUsSection from './AboutUsSection.vue'
 
+export default {
+    components: { SliderSection, AboutUsSection }
 }
 </script>
 
 
 
-<template></template>
+<template>
+    <SliderSection />
+    <AboutUsSection />
+</template>
 
 
 
