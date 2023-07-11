@@ -65,7 +65,8 @@ export default {
                 <div class="col">
                     <div class="small"><b>ABOUT US</b></div>
                     <h2>HIGH QUALITY CINEMATICS</h2>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ullam, odit deleniti id
+                    <p class="small">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ullam, odit deleniti id
                         culpa tempore. Doloribus, dolor officiis repellendus quia perspiciatis accusantium molestiae at,
                         ullam neque esse sapiente similique! Ut!
                         Amet aperiam in veritatis placeat sequi earum est iusto illum omnis cum velit rem illo quia nemo

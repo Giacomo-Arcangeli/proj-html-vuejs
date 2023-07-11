@@ -94,7 +94,8 @@ h2 {
 }
 
 h6 {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .small {

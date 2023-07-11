@@ -62,20 +62,20 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>158</h1>
+                    <h1>780</h1>
                     <h5>SATISFIED CLIENTS</h5>
                 </div>
                 <div class="col">
-                    <h1>158</h1>
-                    <h5>SATISFIED CLIENTS</h5>
+                    <h1>20+</h1>
+                    <h5>OUR PROJECTS</h5>
                 </div>
                 <div class="col">
-                    <h1>158</h1>
-                    <h5>SATISFIED CLIENTS</h5>
+                    <h1>10.000</h1>
+                    <h5>CUP OF COFFEE</h5>
                 </div>
                 <div class="col">
-                    <h1>158</h1>
-                    <h5>SATISFIED CLIENTS</h5>
+                    <h1>12</h1>
+                    <h5>OUR AWARDS</h5>
                 </div>
             </div>
         </div>
