@@ -7,7 +7,7 @@ export default {
 
 
 <template>
-    <section class="container-fluid">
+    <section class="bor">
 
     </section>
 </template>
@@ -17,6 +17,5 @@ export default {
 <style lang="scss" scoped>
 section {
     height: 700px;
-    border: 2px dashed red;
 }
 </style>

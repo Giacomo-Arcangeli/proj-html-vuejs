@@ -54,7 +54,13 @@ export default {
 
 <style lang="scss">
 .bor {
-  border: 1px dashed red;
+  border: 2px dashed red;
+}
+
+// GENERICS
+
+* {
+  line-height: 2;
 }
 
 ul {
@@ -66,11 +72,49 @@ a {
   text-decoration: none;
 }
 
+
+// UTILITIES
 .button-style {
   color: black;
   padding: 12px 35px;
   background-color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
+}
+
+.card-box {
+  max-width: 420px;
+}
+
+// FONT
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+h6 {
+  margin: 20px 0;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
+// PALETTE
+.black {
+  color: #111111;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.grey {
+  color: #666666;
+}
+
+.light-grey {
+  color: #f2f2f2;
 }
 </style>

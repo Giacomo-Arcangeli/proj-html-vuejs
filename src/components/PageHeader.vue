@@ -13,6 +13,7 @@ export default {
 
         <img src="../assets/img/logo.svg" alt="" class="img-fluid logo">
 
+        <!-- NAVBAR LINKS -->
         <ul class="navbar-links">
             <li v-for="link in navbarLinks" :key="link.text">
                 <a :href="link.url">{{ link.text }}</a>
@@ -37,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 5px 15px lightgray;
+    box-shadow: 0 2px 10px lightgray;
     position: fixed;
     top: 0;
     left: 0;
