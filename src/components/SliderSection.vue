@@ -7,9 +7,14 @@ export default {
 
 
 <template>
-    <section class="container-fluid">
+    <section class="container-fluid white">
         <div class="box">
             <a href=""><img src="../assets/img/left-arrow.svg" alt=""></a>
+        </div>
+        <div class="title container">
+            <h5>CINEMATO STUDIO</h5>
+            <H1>ACTION AND INSPIRE PEOPLE</H1>
+            <a class="button-style" href="#">READ MORE</a>
         </div>
         <div class="box">
             <a href=""><img src="../assets/img/right-arrow.svg" alt=""></a>
@@ -40,5 +45,11 @@ img {
     padding: 3px 12px;
     background-color: black;
     filter: opacity(50%);
+}
+
+h1 {
+    font-size: 60px;
+    width: 40%;
+    margin-bottom: 30px;
 }
 </style>
