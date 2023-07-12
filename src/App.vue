@@ -36,6 +36,50 @@ export default {
           text: 'SHOP',
           url: '#'
         }
+      ],
+      informationLinks: [
+        {
+          text: 'Product Support',
+          url: '#'
+        },
+        {
+          text: 'Checkout',
+          url: '#',
+        },
+        {
+          text: 'Report Abuse',
+          url: '#'
+        },
+        {
+          text: 'Redeem Voucher',
+          url: '#'
+        },
+        {
+          text: 'Order Status',
+          url: '#'
+        }
+      ],
+      usefulLinks: [
+        {
+          text: 'Policies & Rules',
+          url: '#'
+        },
+        {
+          text: 'Privacy Policy',
+          url: '#',
+        },
+        {
+          text: 'License Policy',
+          url: '#'
+        },
+        {
+          text: 'My Account',
+          url: '#'
+        },
+        {
+          text: 'Locality',
+          url: '#'
+        }
       ]
     }
   }
@@ -47,7 +91,7 @@ export default {
 <template>
   <PageHeader :navbar-links="navbarLinks" />
   <PageMain />
-  <PageFooter />
+  <PageFooter :information-links="informationLinks" :useful-links="usefulLinks" />
 </template>
 
 
@@ -75,7 +119,7 @@ a {
 
 // UTILITIES
 .button-style {
-  color: black;
+  color: #111111;
   padding: 12px 35px;
   background-color: #fff;
   font-size: 0.9rem;
