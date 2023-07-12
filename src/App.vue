@@ -97,8 +97,8 @@ export default {
 
 
 <style lang="scss">
-.bor {
-  border: 2px dashed red;
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 // GENERICS

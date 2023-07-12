@@ -37,7 +37,7 @@ export default {
                             <input class="small" type="password" placeholder="Your Pincode">
                         </div>
                         <div class="col">
-                            <textarea class="small" name="" id="" cols="80" rows="8"
+                            <textarea class="small" name="" id="" cols="" rows="7"
                                 placeholder="Enter Your Message"></textarea>
                         </div>
                         <div class="col">
@@ -64,7 +64,7 @@ section {
     }
 
     input {
-        width: 330px;
+        width: 307px;
         margin-bottom: 30px;
         background-color: #f2f2f2;
         padding: 3px 15px;
@@ -75,6 +75,7 @@ section {
         background-color: #f2f2f2;
         padding: 6px 15px;
         border: 0;
+        width: 637px;
     }
 
     a {

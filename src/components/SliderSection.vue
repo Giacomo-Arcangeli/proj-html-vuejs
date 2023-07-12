@@ -13,7 +13,7 @@ export default {
         </div>
         <div class="title container">
             <h5>CINEMATO STUDIO</h5>
-            <H1>ACTION AND INSPIRE PEOPLE</H1>
+            <h1>ACTION AND INSPIRE PEOPLE</h1>
             <a class="button-style" href="#">READ MORE</a>
         </div>
         <div class="box">
@@ -34,6 +34,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 90px;
 }
 
 img {

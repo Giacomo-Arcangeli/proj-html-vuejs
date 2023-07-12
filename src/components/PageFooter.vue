@@ -41,7 +41,7 @@ export default {
                     <ul>
                         <li class="title">INFORMATION</li>
                         <li class="mb-2" v-for="link in informationLinks" :key="link.text">
-                            <a :href="link.url">{{ link.text }}</a>
+                            <a class="link" :href="link.url">{{ link.text }}</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@ export default {
                     <ul>
                         <li class="title">USEFUL LINKS</li>
                         <li class="mb-2" v-for="link in usefulLinks" :key="link.text">
-                            <a :href="link.url">{{ link.text }}</a>
+                            <a class="link" :href="link.url">{{ link.text }}</a>
                         </li>
                     </ul>
                 </div>
@@ -95,8 +95,13 @@ footer {
         margin-right: 10px;
     }
 
-    a {
+    .link {
         color: rgb(204, 204, 204);
+
+        &:hover {
+            color: #ffffff;
+            transition: 0.3s;
+        }
     }
 }
 

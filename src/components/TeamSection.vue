@@ -51,7 +51,7 @@ export default {
                     <div class="user">
                         <img src="../assets/img/01.jpg" alt="">
                         <div class="mx-3">
-                            <div class="small"><b>JOHN DOE</b></div>
+                            <div class="small"><b>JOHANNA DOE</b></div>
                             <div class="small">Designer</div>
                         </div>
                     </div>

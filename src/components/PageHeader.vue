@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 10px lightgray;
+    box-shadow: 0 2px 5px silver;
     position: fixed;
     top: 0;
     left: 0;
